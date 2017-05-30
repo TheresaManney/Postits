@@ -4,8 +4,8 @@ import Backbone from 'backbone';
 
 import Postit from '../models/postit.js';
 
-var PostitList = Backbone.Collection.extend({
+var PostitNotes = Backbone.Collection.extend({
   model: Postit
 });
 
-export default PostitList;
+export default PostitNotes;
